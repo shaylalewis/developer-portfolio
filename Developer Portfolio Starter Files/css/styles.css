@@ -1,33 +1,77 @@
 /* Box Model Hack */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 /******************************************
   /* BASE STYLES
   /*******************************************/
+html {
+  font-size: 62.5%;
+}
 
-body {}
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  /* margin: 1.5rem; */
+  background: rgb(10, 10, 11);
+}
 
+h1,
+h2,
+h3,
+header span {
+  font-family: 'Prata', serif;
+  color: whitesmoke;
+}
+
+.top p {
+  color: rgb(173, 173, 173);
+}
+
+ul {
+  list-style: none;
+}
+
+.links {
+  display: none;
+}
+
+header span {
+  font-size: 2.5rem;
+}
+
+.founder,
+footer {
+  background: rgb(46, 48, 56);
+}
 
 /******************************************
   /* LAYOUT
   /*******************************************/
-header {}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top {
+  margin-left: 3%;
+}
 
 footer {}
 
