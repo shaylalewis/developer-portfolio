@@ -39,8 +39,25 @@ header span {
   color: whitesmoke;
 }
 
+h1 {
+  font-size: 4.5rem;
+  max-width: 407px;
+  margin-left: 2rem
+}
+
 .top p {
   color: rgb(173, 173, 173);
+  font-size: 2rem;
+  margin-left: 2rem;
+  max-width: 550px;
+}
+
+.sites p {
+  font-size: 1.5rem;
+  color: rgb(173, 173, 173);
+  margin-left: 8%;
+  max-width: 450px;
+  margin-bottom: 2rem;
 }
 
 ul {
@@ -51,6 +68,10 @@ ul {
   display: none;
 }
 
+.sites-lnk {
+  font-size: 3rem;
+}
+
 header span {
   font-size: 2.5rem;
 }
@@ -58,6 +79,10 @@ header span {
 .founder,
 footer {
   background: rgb(46, 48, 56);
+}
+
+.lni {
+  color: white;
 }
 
 /******************************************
@@ -71,6 +96,51 @@ header {
 
 .top {
   margin-left: 3%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+  /* margin: 0 auto; */
+  margin-bottom: 6rem;
+  max-width: 420px;
+}
+
+.child1,
+.child2 {
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.img1,
+.img2 {
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.sites {
+  margin-left: 4%;
+}
+
+.sites-lnk,
+lni {
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 1rem;
+}
+
+lni {
+  font-size: 2.5rem;
+  margin-left: 1.2rem;
+  font-weight: bold;
+}
+
+.pic {
+  max-width: 85%;
+  margin: 0 auto;
+  display: block;
 }
 
 footer {}
