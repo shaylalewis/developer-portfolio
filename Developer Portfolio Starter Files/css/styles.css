@@ -55,7 +55,7 @@ h2 {
 h3 {
   font-size: 3.3rem;
   max-width: 350px;
-  margin-left: 4%;
+  margin-left: 6%;
 }
 
 .contact p,
@@ -116,8 +116,8 @@ footer {
   border: 10px solid rgb(251, 232, 80);
   background: rgb(251, 232, 80);
   color: black;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: .5rem;
+  margin-bottom: 5rem;
   margin-left: 4%;
   font-size: 2rem;
 }
@@ -145,6 +145,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 3%;
 }
 
 .top {
@@ -220,3 +221,113 @@ footer {
 /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+  .companies {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    align-items: center;
+    max-width: 768px;
+  }
+
+  .child1,
+  .child2 {
+    margin-left: 16%;
+    margin-right: 0;
+    width: 80%;
+  }
+
+  .child1 {
+    margin-bottom: 2rem;
+    margin-left: 25%;
+  }
+
+  .img1,
+  .img2 {
+    display: inline-block;
+    margin-right: 7rem;
+  }
+
+  .pic {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  h1 {
+    font-size: 5.5rem;
+    max-width: 768px;
+    margin-left: 9rem
+  }
+
+  h2 {
+    font-size: 4rem;
+    padding: 1.2rem;
+    letter-spacing: .2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 4rem;
+    margin-bottom: 23px;
+  }
+
+  .top p {
+    max-width: 615px;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  .sites-lnk,
+  lni {
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 1rem;
+  }
+
+  .sites p {
+    margin-left: 8%;
+    max-width: 610px;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    font-size: 1.6rem;
+  }
+
+
+  .pic {
+    min-width: 85%;
+    display: block;
+  }
+
+  .founder p {
+    margin: 0 auto;
+    font-size: 1.67rem;
+    max-width: 700px;
+  }
+
+  .founder {
+    padding-bottom: 6%;
+  }
+
+  .contact-btn {
+    margin-top: .5rem;
+    margin-bottom: 5rem;
+    margin-left: 5.5%;
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 1.7rem;
+    max-width: 500px;
+
+  }
+
+}
+
+@media (min-width: 1024px) {}
