@@ -126,6 +126,8 @@ footer span {
   color: white;
   font-size: 2.2rem;
   padding: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: .2rem;
 }
 
 .social {
@@ -343,19 +345,28 @@ footer {
   .btn {
     display: inline-block;
     /* margin: 0 auto; */
-    padding: 1% 1%;
+    padding: 1% 2%;
     border: 8px solid rgb(251, 232, 80);
     background: rgb(251, 232, 80);
     color: black;
-    margin-top: .5rem;
-    margin-bottom: 5rem;
+    margin-top: -0.5rem;
+    margin-bottom: 4rem;
     margin-left: 4%;
     font-size: 1.5rem;
-    border-radius: 4%;
+    border-radius: 16px;
   }
 
   .links li {
     margin-right: 4rem;
+    color: white;
+  }
+
+  .nav-lnk:visited {
+    color: gold;
+  }
+
+  a:hover {
+    color: #3D20FA
   }
 
   .top {
@@ -411,12 +422,32 @@ footer {
 
   .spense {
     max-width: 50%;
-    margin-right: 5%;
+    margin-right: 8%;
+    margin-left: 6%;
   }
 
   .pic {
     max-width: 90%;
     display: block;
+  }
+
+  .col-1,
+  .col-2 {
+    width: 50%;
+    display: table-cell;
+    padding-left: 5%;
+  }
+
+  .contact p {
+    margin-left: 5.5%;
+  }
+
+  .contact-btn {
+    margin-top: .5rem;
+    margin-bottom: 5rem;
+    margin-left: 6.3%;
+    font-size: 1.5rem;
+    border-radius: 16px;
   }
 
 }
