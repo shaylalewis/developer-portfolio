@@ -96,6 +96,10 @@ a {
   letter-spacing: .2rem;
 }
 
+a.nav-lnk {
+  color: rgb(232 213 64);
+}
+
 header span {
   font-size: 2.5rem;
 }
