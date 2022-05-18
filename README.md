@@ -22,9 +22,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](../developer-portfolio/Developer%20Portfolio%20Starter%20Files/img/screen/johndesk.png)
+![Desktop](https://user-images.githubusercontent.com/62856686/168939850-4eb08d50-b5aa-4009-918f-0d13df9145a1.png)
 
-![Mobile](../developer-portfolio/Developer%20Portfolio%20Starter%20Files/img/screen/johnmobile.png)
+![Mobile](https://user-images.githubusercontent.com/62856686/168939917-66e577a2-9df1-4e78-a22c-d6666e2325dc.png)
+
 
 
 ### Links
