@@ -16,22 +16,32 @@
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
     <link rel="stylesheet" href="./Developer Portfolio Starter Files/css/normalize.css">
     <link rel="stylesheet" href="./Developer Portfolio Starter Files/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
         <span>John Jun</span>
-        <a class="hammy" href="#hamburger-icon" onclick="gfgMenu()">
-            <nav>
-                <img class="hammy burger" src="./Developer Portfolio Starter Files/img/Hamburger Menu.svg" alt="">
-                <ul class="links">
-                    <li><a class="nav-lnk" href="#">Articles</a></li>
-                    <li><a class="nav-lnk" href="#">Chats</a></li>
-                    <li><a class="nav-lnk" href="#">Awards</a></li>
-                    <li><a class="nav-lnk" href="#">About</a></li>
-                </ul>
-            </nav>
-            <a class="btn links" href="#">Get in touch</a>
+        <nav>
+            <ul class="menu">
+                <li><a class="menuItem" href="#">Articles</a></li>
+                <li><a class="menuItem" href="#">Chats</a></li>
+                <li><a class="menuItem" href="#">Awards</a></li>
+                <li><a class="menuItem" href="#">About</a></li>
+            </ul>
+            <button class="hamburger">
+                <!-- material icons https://material.io/resources/icons/ -->
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+            </button>
+            <ul class="links">
+                <li><a class="nav-lnk" href="#">Articles</a></li>
+                <li><a class="nav-lnk" href="#">Chats</a></li>
+                <li><a class="nav-lnk" href="#">Awards</a></li>
+                <li><a class="nav-lnk" href="#">About</a></li>
+            </ul>
+        </nav>
+        <a class="btn links" href="#">Get in touch</a>
     </header>
 
     <main>
@@ -125,7 +135,7 @@
             <i class="lni lni-github-original"></i>
         </div>
     </footer>
-    <script src="./Developer Portfolio Starter Files/Javascript/wow.js"></script>
+    <script src="/Developer Portfolio Starter Files/Javascript/wow.js"></script>
 </body>
 
 </html>
